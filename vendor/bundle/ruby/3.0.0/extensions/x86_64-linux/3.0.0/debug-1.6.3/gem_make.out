@@ -1,0 +1,16 @@
+current directory: /home/pratham/Desktop/Rails/main/twitteer/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+/home/pratham/.rvm/rubies/ruby-3.0.0/bin/ruby -I /home/pratham/.rvm/rubies/ruby-3.0.0/lib/ruby/site_ruby/3.0.0 extconf.rb
+creating Makefile
+
+current directory: /home/pratham/Desktop/Rails/main/twitteer/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20221028-108888-3ull20 sitelibdir\=./.gem.20221028-108888-3ull20 clean
+
+current directory: /home/pratham/Desktop/Rails/main/twitteer/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20221028-108888-3ull20 sitelibdir\=./.gem.20221028-108888-3ull20
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/pratham/Desktop/Rails/main/twitteer/vendor/bundle/ruby/3.0.0/gems/debug-1.6.3/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20221028-108888-3ull20 sitelibdir\=./.gem.20221028-108888-3ull20 install
+/usr/bin/install -m 0755 debug.so ./.gem.20221028-108888-3ull20/debug
