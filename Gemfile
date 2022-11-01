@@ -80,3 +80,4 @@ gem 'bulma-rails', '~> 0.9.4' # css framework
 gem 'simple_form', '~> 5.1'  # form made easy
 gem 'gravatar_image_tag', '~> 1.2' # 
 gem 'devise', '~> 4.8', '>= 4.8.1'
+gem "cssbundling-rails"

@@ -8,9 +8,13 @@
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
+
     <%if flash[:notice]%>
     <div class="notification is-primary global-notification">
     <P class="notice"><%= notice%></p>
@@ -21,6 +25,8 @@
     <P class="alert"><%= alert%></p>
     </div>
     <%end%>
+
+    <%= render "shared/header"%> 
 
     <%= yield %>
   </body>

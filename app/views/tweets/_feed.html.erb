@@ -1,0 +1,8 @@
+<%= tweet.tweet %>
+
+<%= link_to tweet, class="tweet" do %>
+  <% end%>
+  <%= link_to edit_tweet_path(tweet),  class="tweet" do %>
+  <%end%>
+  <%= link_to tweet, method: :delete, data: { confirm:'are you shure ypu wanna delete this tweet'} do %>
+<%end%>
