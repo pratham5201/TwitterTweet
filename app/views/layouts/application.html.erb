@@ -14,7 +14,7 @@
   </head>
 
   <body>
-
+    <%= render "shared/header"%> 
     <%if flash[:notice]%>
     <div class="notification is-primary global-notification">
     <P class="notice"><%= notice%></p>
@@ -25,9 +25,6 @@
     <P class="alert"><%= alert%></p>
     </div>
     <%end%>
-
-    <%= render "shared/header"%> 
-
     <%= yield %>
   </body>
 </html>
